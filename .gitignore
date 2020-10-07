@@ -36,3 +36,4 @@ hydrogen*.cfg
 /browser/**/*.js
 /node/**/*.js
 *.stackdump
+_node_modules

@@ -23,6 +23,7 @@
 		"node": ">= 8.6.0"
 	},
 	"scripts": {
+		"yarn:install": "yarn set version berry && yarn config set enableGlobalCache true && yarn install",
 		"precommit": "npm run build-test:ci",
 		"prepublishOnly": "echo DONT PUBLISH IT !!!&&exit 1",
 		"ci": "npm run build-test:ci && ncat \"tmp/*/coverage/all/lcov/**/lcov.info\" --banner \"\" | coveralls",
