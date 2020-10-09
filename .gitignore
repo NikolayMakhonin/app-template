@@ -17,6 +17,11 @@ node_modules/
 # dotenv environment variables file
 .env
 
+# yarn
+/.yarn
+/.pnp.js
+/yarn.lock
+
 # sapper
 /.DS_Store
 /__sapper__/
